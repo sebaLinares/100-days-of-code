@@ -1,0 +1,78 @@
+// Colors
+$blackSixty: rgba(0, 0, 0, 0.6);
+$yellowMain: rgba(226, 201, 58, 0.75);
+$whiteMain: rgba(255, 255, 255, 0.6);
+$grayMain: rgba(126, 126, 126, 0.75);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+.background {
+  background-image: url("/assets/img/beerjs-signup-bg-2.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+  .box-container {
+    position: relative;
+    padding-left: 20%;
+
+    .header {
+      padding-top: 3rem;
+
+      img {
+        height: 150px;
+        width: 150px;
+      }
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      width: 52%;
+      height: auto;
+      margin-top: 3rem;
+      border-radius: 1rem;
+      overflow: hidden;
+      height: 525px;
+
+      .left-menu {
+        background-color: $yellowMain;
+        display: grid;
+        color: $blackSixty;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 2rem;
+
+        .left-menu-container {
+          .signup {
+            display: block;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+
+          .info {
+            display: block;
+          }
+        }
+
+        .link {
+          .website-link {
+            display: block;
+          }
+        }
+      }
+
+      .form-container {
+        background-color: $grayMain;
+        color: #fff;
+      }
+    }
+  }
+}
