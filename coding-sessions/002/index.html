@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./dist/styles.css" />
+
+    <title>002 - 100 Days of Code</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="arrow arrow-1"></div>
+        <div class="arrow arrow-2"></div>
+        <div class="product-description">
+          <div class="product-name"><span>Designer table</span></div>
+          <div class="product-image">
+            <img src="/assets/img/table1.svg" alt="hola" />
+          </div>
+          <div class="product-price"><span>$399.00</span></div>
+        </div>
+      </div>
+      <div class="credit-card-container">
+        <div class="title"><span>Credit card detail</span></div>
+        <div class="credit-card-info">
+          <div class="card-no">
+            <div class="card-info">
+              <h2>card no</h2>
+              <div class="input-group">
+                <input type="text" required />
+                <input type="text" required />
+                <input type="text" required />
+                <input type="text" required />
+              </div>
+            </div>
+            <div class="card-logo">
+              <img src="https://svgshare.com/i/CSC.svg" alt="" />
+            </div>
+          </div>
+          <div class="name-on-card">
+            <h2>name on card</h2>
+            <input type="text" required />
+          </div>
+          <div class="expires-date-container">
+            <div class="expires-date">
+              <h2>expires-date</h2>
+              <div class="select-container">
+                <div class="select">
+                  <select name="" id="" class="card-expiration-month">
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                    <option value="">06</option>
+                    <option value="">07</option>
+                    <option value="">08</option>
+                    <option value="">09</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                  </select>
+                </div>
+                <span> / </span>
+                <div class="select">
+                  <select name="" id="" class="card-expiration-year">
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                    <option value="">2025</option>
+                    <option value="">2026</option>
+                    <option value="">2027</option>
+                    <option value="">2028</option>
+                    <option value="">2029</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="cvc">
+              <div class="cvc-title">
+                <h2>cvc<i class="far fa-question-circle"></i></h2>
+              </div>
+              <div class="input-group">
+                <div class="number cvc-number-1">
+                  <input id="input-1" type="text" required />
+                  <div class="placeholder placeholder-1">
+                    <i class="far fa-circle fa-xs"></i>
+                  </div>
+                </div>
+                <div class="number cvc-number-2">
+                  <input id="input-2" type="text" required />
+                  <div class="placeholder placeholder-2">
+                    <i class="far fa-circle fa-xs"></i>
+                  </div>
+                </div>
+                <div class="number cvc-number-3">
+                  <input id="input-3" type="text" required />
+                  <div class="placeholder placeholder-3">
+                    <i class="far fa-circle fa-xs"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total">
+            <h2>total</h2>
+            <span>$399.00</span>
+          </div>
+        </div>
+        <div class="pay-button"><button>pay now</button></div>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
