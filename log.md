@@ -45,8 +45,11 @@ each patient. So it's a nested array. Having it done in angular, again, it was m
 ### Day 7: April 16, 2019
 **Today's Progress**: Started reading documentation on @gridsome. I want to use it on a freelance project that came out. I'm trying to understand the difference between static/dynamic/SPA websites, I stil can't understand completely. I hope tomorrow every doubt about it is cleared.
 
-**Thoughts:**: 
+**Thoughts:**:
 
+### Day 24: May 3, 2019
+**Today's Progress and thoughts**: I stopped posting since D.003, I’ll make a quick summary from what has been this 20 days and try to never miss a day again updating this repo.
 
+I was doing Max Schwarzmuller’s VueJS course cause the idea was to hustle a bit with contracting/freelancing some websites for local customers in my city. I started reading about server side rendering and static site generators, so I stumbled on @gridsome. Meanwhile I practiced VueJS syntax and CSS on projects that I was doing in the same course. After this, there was a christian holiday on the third weekend of April I think and I’ve always had this thing for React, even though my first framework was Angular and now I was learning Vue, so I thought “why not”. On top of it when I bought the Vue course, they offer me the React course too, and bought both, more reasons to try React for the weekend. The rest is history. I’ve been doing React’s course the last 10 days and I’m loving it. It’s so simple, no keywords, no special syntax (or almost none), just javascript. Beside the course coding exercises I did a project where you enter your location and it returns you the 24h drugstore in your city. It works only if you are from my country cause it uses a government API. I also went through @GatsbyJS documentation and the beginners exercises and started working on a client project using React Gatsby. 
 
-
+Today I realized that I was trying go deep on using just functional components on my Gatsby project but I’m lacking some fundamentals about them. The first parts of the React course I did where focused primarily in Class components. So I’m thinking in going back to the course or finishing it with class comps. Finally, I’m trying to set up GCloud to make one http requests a day to get the 24h drugstore because right now I have to manually set the .json file with the drugstores -I first make the http request from the browser, copy the response, paste in my local .json, then commit/push and netlify  builds again. The day ended trying to set up functions on firebase of GCP but I wasn't successful about it. It was very frustrating. 
